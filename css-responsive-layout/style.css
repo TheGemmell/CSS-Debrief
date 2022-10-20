@@ -1,7 +1,7 @@
 body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
+	width: 100%;
+	height: 100%;
+	margin: 0;
 }
 
 header h1 {
@@ -16,6 +16,7 @@ nav {
 }
 
 nav a {
+	text-align: center;
 	margin: 0 10px;
 	background: lightgray;
 	padding: 1px;
@@ -46,5 +47,30 @@ figure img {
 	background: red;
 }
 
+@media screen and (max-width: 768px) {
+	figure img {
+		max-width: 700px;
+	}
 
+	#featured-property p {
+		width: 600px;
+	}
+}
 
+@media screen and (max-width: 480px) {
+	nav {
+		align-items: center;
+	}
+
+	nav a {
+		margin: 0 5px;
+	}
+
+	figure img {
+		max-width: 300px;
+	}
+
+	#featured-property p {
+		width: 250px;
+	}
+}
