@@ -14,7 +14,7 @@ Open 'CSS_Debrief/css-essentials-css-issue-bot-9000'
 
 1. Open index.html in your browser. Notice how our styles don't look quite right? 
 2. Open css/style.css in your text editor.
-3. Visit the W3C CSS validator [http://jigsaw.w3.org/css-validator/#validate_by_input](http://jigsaw.w3.org/css-validator/#validate_by_input). If not already selected, click on the tab labeled "By direct input".
+3. Visit the W3C CSS validator [http://saw.w3.org/css-validator/#validate_by_input]jig(http://jigsaw.w3.org/css-validator/#validate_by_input). If not already selected, click on the tab labeled "By direct input".
 4. Copy the code from css/style.css and paste it into the text area. Click the "Check" button.
 5. Use the error messages to correct the CSS. 
 6. Repeat steps 3-5 until your readout states "Congratulations! No Error Found.".
